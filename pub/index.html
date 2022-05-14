@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1>Listado de archivos MarkDown</h1>
-    <h4 id = "hora"></h4>
     <input type="button" onclick="archivos()" value="archivos" >
     <p id = 'archivos'></p>
     
@@ -22,9 +21,6 @@
                 }
             )
         }
-        const date = new Date();
-        const [hour, minute, second] = [date.getHours(), date.getMinutes(), date.getSeconds()]
-        document.getElementById("hora").innerHTML = `${hour}:${minute}:${second}`;
     </script>
 </body>
 
