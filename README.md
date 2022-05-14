@@ -60,15 +60,42 @@
 
 ## I.		SOLUCIÓN DE EJERCICIOS/PROBLEMAS
 
-- 
+-  En grupos de 3 a 5 personas implemente una aplicación web que navegue sobre archivos Markdown y permita:
+    1. Listas los archivos Markdown disponibles
+      * Resolución
+   
+    3. Ver el contenido de un archivo Markdown traducido a HTML
+      * Resolución
+   
+    5. Crear nuevos archivos MarkDown y almacenarlos en el servidor
+      * Resolución
+
+-   La comunicación entre el cliente y el servidor tiene que ser usando JSON sólamente.
+El cliente debe usar AJAX para sus peticiones
+El servidor debe usar NodeJS
+Su aplicación debe ser de página única, es decir que sólo habrá un archivo index.html y nada más.
+
+-   Si los enlaces proporcionado en esta guía no le son suficientes, puede revisar códigos en Internet que le ayuden con cosas como ejemplos: listar un directorio en NodeJS; pero deberá incluir los enlaces correspondientes en sus archivos como comentarios y sólo podrá usar código de stackoverflow, incluir código de cualquier otra fuente está prohibido y se considerará actitud deshonesta.
 
 ## II.	SOLUCIÓN DE CUESTIONARIO
 
-- 
+- En el Ejemplo "Hola Mundo" con NodeJS. ¿Qué pasó con la línea: "Content type ….."?
+    * 
 
+- En los ejercicios. ¿En qué lugar debería estar el archivo poema.txt?
+    * 
+
+-  ¿Entiende la expresión regular en el código y se da cuenta de para qué es útil?
+    *
+
+- Note que la respuesta del servidor está en formato JSON, ¿Habrá alguna forma de verla directamente?
+    * 
 ## III.	CONCLUSIONES
 
 - 
 
 ## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
-- 
+-   https://www.w3schools.com/nodejs/nodejs_intro.asp
+-   https://nodejs.org/en/docs/guides/getting-started-guide/
+-   https://nodejs.dev/learn
+-   https://www.w3schools.com/js/js_api_fetch.asp
