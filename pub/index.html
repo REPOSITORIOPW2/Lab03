@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MarkDown</title>
+</head>
+<body>
+    <h1>Listado de archivos MarkDown</h1>
+    <h4 id = "hora"></h4>
+    <input type="button" onclick="archivos()" value="archivos" >
+    <p id = 'archivos'></p>
+    
+    <script>
+        function archivos(){
+            const url = 'http://localhost:3000/archivos';
+            fetch(url).then(
+                response => response.json()
+            ).then(
+                data => {
+                    document.querySelector('#archivos').innerHTML = data.data;
+                }
+            )
+        }
+        const date = new Date();
+        const [hour, minute, second] = [date.getHours(), date.getMinutes(), date.getSeconds()]
+        document.getElementById("hora").innerHTML = `${hour}:${minute}:${second}`;
+    </script>
+</body>
+
+</html>
