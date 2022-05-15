@@ -81,13 +81,13 @@ Su aplicación debe ser de página única, es decir que sólo habrá un archivo 
 
 - En el Ejemplo "Hola Mundo" con NodeJS. ¿Qué pasó con la línea: "Content type ….."?
     * En ese ejemplo no se le agregó por que no se espicifico que se muestre en HTML, en todo caso debiera introducir un encabezado HTTP con el tipo de contenido correcto. Como por ejemplo: 
-    ```
-    res.writeHead(200, {'Content-Type': 'text/html'});
+    ```res.writeHead(200, {'Content-Type': 'text/html'});
     ´´´
 
 - En los ejercicios. ¿En qué lugar debería estar el archivo poema.txt?
-    * 
-
+    * Debiera estar en una carpeta llamada priv.
+    ```fs.readFile(path.resolve(__dirname, 'priv/poema.txt'), 'utf8',´´´
+    
 -  ¿Entiende la expresión regular en el código y se da cuenta de para qué es útil?
     *
 
