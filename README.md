@@ -80,7 +80,10 @@ Su aplicación debe ser de página única, es decir que sólo habrá un archivo 
 ## II.	SOLUCIÓN DE CUESTIONARIO
 
 - En el Ejemplo "Hola Mundo" con NodeJS. ¿Qué pasó con la línea: "Content type ….."?
-    * 
+    * En ese ejemplo no se le agregó por que no se espicifico que se muestre en HTML, en todo caso debiera introducir un encabezado HTTP con el tipo de contenido correcto. Como por ejemplo: 
+    ```
+    res.writeHead(200, {'Content-Type': 'text/html'});
+    ´´´
 
 - En los ejercicios. ¿En qué lugar debería estar el archivo poema.txt?
     * 
