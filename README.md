@@ -90,7 +90,7 @@ Su aplicación debe ser de página única, es decir que sólo habrá un archivo 
         fs.readFile(path.resolve(__dirname, 'priv/poema.txt'), 'utf8', 
         ```
 - ¿Entiende la expresión regular en el código y se da cuenta de para qué es útil?
-    * Sí, lo que hace la expresión regular es que por cada espacio en el poema, lo reemplazará por un (<br>) literalmente. Y nos puede ser util cuando queramos reconocer cadenas de texto, y por ejemplo, en este caso, modificarlas.
+    * Sí, lo que hace la expresión regular es que por cada espacio en el poema, lo reemplazará por un \<br> literalmente. Y nos puede ser util cuando queramos reconocer cadenas de texto, y por ejemplo, en este caso, modificarlas.
         ```sh
         response.json({
                 text: data.replace(/\n/g, '<br>')
