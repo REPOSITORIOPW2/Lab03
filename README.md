@@ -97,10 +97,10 @@ Su aplicación debe ser de página única, es decir que sólo habrá un archivo 
             })
         ```
 - Note que la respuesta del servidor está en formato JSON, ¿Habrá alguna forma de verla directamente?
-    * 
+    * Podría ser agregando donde este llamé aun método que muestre el texto(poema) directamente.
 ## III.	CONCLUSIONES
 
-- 
+- En conclusión NodeJS nos permitió en este laboratorio crear aplicaciones web clásicas en el servidor, donde se establece comunicación bilateral.
 
 ## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
 -   https://www.w3schools.com/nodejs/nodejs_intro.asp
