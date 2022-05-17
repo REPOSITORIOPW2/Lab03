@@ -65,6 +65,7 @@
       * Resolución
       
       JavaScript
+      
       ![sol1](https://user-images.githubusercontent.com/83080715/168726723-930de5ea-5776-49fb-9b6c-dc7e300688ec.png)
       
       Html
