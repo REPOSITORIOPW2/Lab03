@@ -80,19 +80,27 @@ Su aplicación debe ser de página única, es decir que sólo habrá un archivo 
 ## II.	SOLUCIÓN DE CUESTIONARIO
 
 - En el Ejemplo "Hola Mundo" con NodeJS. ¿Qué pasó con la línea: "Content type ….."?
-    * 
-
+    * En ese ejemplo no se le agregó por que no se espicifico que se muestre en HTML, en todo caso debiera introducir un encabezado HTTP con el tipo de contenido correcto. Como por ejemplo: 
+        ```sh
+        res.writeHead(200, {'Content-Type': 'text/html'}); 
+        ```
 - En los ejercicios. ¿En qué lugar debería estar el archivo poema.txt?
-    * 
-
--  ¿Entiende la expresión regular en el código y se da cuenta de para qué es útil?
-    *
-
+    * Debiera estar en una carpeta llamada priv.
+        ```sh
+        fs.readFile(path.resolve(__dirname, 'priv/poema.txt'), 'utf8', 
+        ```
+- ¿Entiende la expresión regular en el código y se da cuenta de para qué es útil?
+    * Sí, lo que hace la expresión regular es que por cada espacio en el poema, lo reemplazará por un \<br> literalmente. Y nos puede ser util cuando queramos reconocer cadenas de texto, y por ejemplo, en este caso, modificarlas.
+        ```sh
+        response.json({
+                text: data.replace(/\n/g, '<br>')
+            })
+        ```
 - Note que la respuesta del servidor está en formato JSON, ¿Habrá alguna forma de verla directamente?
-    * 
+    * Podría ser agregando donde este llamé aun método que muestre el texto(poema) directamente.
 ## III.	CONCLUSIONES
 
-- 
+- En conclusión NodeJS nos permitió en este laboratorio crear aplicaciones web clásicas en el servidor, donde se establece comunicación bilateral.
 
 ## REFERENCIAS Y BIBLIOGRÁFIA RECOMENDADAS
 -   https://www.w3schools.com/nodejs/nodejs_intro.asp
