@@ -73,7 +73,11 @@
       ![sol2](https://user-images.githubusercontent.com/83080715/168726762-e53d62f2-6d8a-49ae-883e-227a783de7b7.png)
    
     3. Ver el contenido de un archivo Markdown traducido a HTML
-      * Resolución
+      * Resolucion 
+
+    ![image](https://user-images.githubusercontent.com/91225726/168731405-03fe8979-1d64-4a00-b02e-145d3936f6b1.png)
+    ![image](https://user-images.githubusercontent.com/91225726/168731812-e44172b2-98dd-420d-8358-393fa6ebc874.png) 
+
    
     5. Crear nuevos archivos MarkDown y almacenarlos en el servidor
       * Resolución
